@@ -1,0 +1,56 @@
+body {
+    
+    font-family: "Nunito", sans-serif;
+}
+
+main#texto-principal {
+    margin: 25px 50px 25px 50px;
+}
+
+main#texto-principal div.box {
+    font-family: "Quicksand", sans-serif;
+    color: rgb(58, 58, 58);
+    font-size: 8pt;
+    text-align: start;
+    padding: 0px 50px 0px 50px;
+    width: 60%;
+}
+
+main#texto-principal div.box span{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 700px) {
+    main#texto-principal div.box {
+        width: 80%;
+        transition: 2s;
+    }
+}
+
+footer{
+    bottom: 0px;
+    position: block;
+    font-family: "Nunito", sans-serif;
+    background-color: black;
+    width: 100%;
+    padding: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer a, footer span {
+    color: lightgrey;
+    font-size: 10pt;
+}
+
+footer span.nome {
+    margin-top: -20px;
+    font-size: 8pt;
+}
+
+footer img {
+    height: 35px;
+}

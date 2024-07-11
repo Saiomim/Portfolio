@@ -1,0 +1,45 @@
+div.menu-superior {
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+div.logo img {
+    margin-left: -80px;
+    height: 5em;
+    width: 5em;
+}
+
+div.botoes-conteudo {
+    padding-right: 00px;
+    display: flex;
+    align-items: center;
+
+}
+
+div.botoes-conteudo button {
+    font-family: "Nunito", sans-serif;
+    background: none;
+    border: none;
+    margin-right: 10px;
+    transition: 0.8s ease-in-out;
+    opacity: 0.8;
+
+}
+
+div.botoes-conteudo button:hover {
+    background-color: rgb(204, 199, 199);
+    transform: scale(1.2, 1.2);
+    border-radius: 2px;
+    box-shadow: 1.5px 1.5px rgb(139, 139, 139);
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    div.menu-superior{
+        justify-content: center;
+        gap: 10%;
+        transition: 2s;
+    }
+}

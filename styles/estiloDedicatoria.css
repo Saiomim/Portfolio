@@ -1,0 +1,87 @@
+:root{
+    --table-width: 20%;
+}
+
+main {
+    margin: 0px 0px 50px 0px;
+}
+
+main#dedicacao {
+    margin: 25px 50px 25px 50px;
+}
+
+main#dedicacao div.box {
+    font-family: "Quicksand", sans-serif;
+    color: rgb(58, 58, 58);
+    font-size: 8pt;
+    text-align: start;
+    padding: 0px 50px 0px 50px;
+    width: 60%;
+}
+
+@media screen and (max-width: 700px) {
+    main#dedicacao div.box {
+        width: 80%;
+        transition: 2s;
+    }
+}
+
+div.fotos {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+div.fotos img {
+    width: 100%;
+    height: 100%;
+}
+
+div.fotos table tr td.td-special{
+    height: 100%;
+    width: 100%;
+    padding: 80px 0 127px 0;
+    text-decoration: underline;
+    transition: 2s;
+}
+
+
+div.fotos table, div.fotos tr, div.fotos td{
+    border: 0px solid rgb(0, 0, 0);
+    padding: 0px 0px 20px 0px;
+}
+
+div.fotos table {
+    width: 20%;
+    height: 100%;
+    margin: 50px 0 10px 0;
+}
+
+@media screen and (max-width: 700px) {
+    div.fotos table{
+        width: 55%;
+        height: auto;
+        transition: 2s;
+    }
+
+    div.fotos img{
+        margin: 0px 0px 0px 0;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    div.fotos table tr td.td-special{
+        padding: 45px 0 65px 0px;
+        transition: 2.0s;
+    }
+}
+
+@media screen and (max-width: 300px){
+    div.fotos table tr td.td-special{
+        padding: 30px 0 50px 0px;
+        transition: 2.0s;
+    }
+}
