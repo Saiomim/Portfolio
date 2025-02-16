@@ -41,6 +41,11 @@ footer{
     gap: 10px;
 }
 
+div.pos {
+    position: fixed;
+    bottom: 0px
+}
+
 footer a, footer span {
     color: lightgrey;
     font-size: 10pt;
