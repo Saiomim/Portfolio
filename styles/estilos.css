@@ -41,6 +41,10 @@ footer{
     gap: 10px;
 }
 
+.space-between {
+    height: 250px;
+    width: 100%;
+}
 
 footer a, footer span {
     color: lightgrey;
